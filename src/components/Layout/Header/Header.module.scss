@@ -1,0 +1,29 @@
+.wrapper {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 3px 7px 1px rgb(0 0 0 / 7%), 0 -3px 7px 1px rgb(0 0 0 / 7%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+
+    .logo {
+        font-size: 40px;
+    }
+    .sidebar {
+        display: flex;
+        align-items: center;
+
+        .item {
+            margin-left: 40px;
+            padding: 10px 20px;
+            color: var(--cartprimary-btn-text-color);
+            font-size: 20px;
+            transition: .2s;
+            text-align: center;
+            
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+}

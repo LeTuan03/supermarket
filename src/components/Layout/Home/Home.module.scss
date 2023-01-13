@@ -1,0 +1,52 @@
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-top: 40px;
+    
+    .content {
+        width: 100%;
+        display: flex;
+    }
+}
+
+.introduction {
+    width: 70%;
+
+    .title {
+        font-size: 36px;
+        font-weight: 600;
+        margin: 25px 0px;
+    }
+
+    .desp {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 18px 0px;
+    }
+} 
+
+.btn {   
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 40px;
+    transition: background-color .2s,color .2s;
+    color: var(--text-color);
+    background-color: var(--cartprimary-btn-text-color);
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+
+.img {
+    width: 350px;
+    aspect-ratio: auto 350 / 240;
+    height: 240px;
+    border-radius: 30px
+}

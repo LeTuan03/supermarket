@@ -1,0 +1,12 @@
+.btn {  
+    border: 0;
+    border-radius: 3px;
+    // display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    padding: 13px 40px;
+    transition: background-color .2s,color .2s;
+    color: var(--text-color);
+    background-color: var(--cart-btn-color);
+}
