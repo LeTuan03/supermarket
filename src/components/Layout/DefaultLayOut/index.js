@@ -1,7 +1,6 @@
 
 
 import Header from '../Header';
-
 import styles from './DefaultLayOut.module.scss'
 function DefaultLayOut({ children }) {
     return ( <div className={styles.wrapper}>

@@ -1,12 +1,19 @@
 .list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  margin-top: 15px;
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
 }
+
 .img {
-  width: 120px;
+  width: 70px;
+  padding: 10px;
   margin-right: 20px;
   cursor: pointer;
 }
@@ -103,4 +110,18 @@
   50% {
     transform: translateY(30px);
   }
+}
+.input {
+  position: relative;
+  padding: .5rem;
+  margin: 10px 0;
+  width: 25%;
+  border: none;
+  outline: none;
+  border-left: 5px solid #0dcaf0;
+  caret-color: #0dcaf0;
+}
+.message {
+  color: red;
+  display: none;
 }
